@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_TgCOkAW8Eeia_I_8W8qb0Q" confirmationNeeded="false" name="PRD">
+    <contextParameter xmi:id="_TgCOkQW8Eeia_I_8W8qb0Q" comment="" name="clientSap" prompt="clientSap?" promptNeeded="false" type="id_String" value="&quot;700&quot;"/>
+    <contextParameter xmi:id="_TgCOkgW8Eeia_I_8W8qb0Q" comment="" name="userID" prompt="userID?" promptNeeded="false" type="id_String" value="&quot;MASTERSAF&quot;"/>
+    <contextParameter xmi:id="_TgCOkwW8Eeia_I_8W8qb0Q" comment="" name="password" prompt="password?" promptNeeded="false" type="id_String" value="&quot;iNicio01&quot;"/>
+    <contextParameter xmi:id="_TgCOlAW8Eeia_I_8W8qb0Q" comment="" name="language" prompt="language?" promptNeeded="false" type="id_String" value="&quot;PT&quot;"/>
+    <contextParameter xmi:id="_TgCOlQW8Eeia_I_8W8qb0Q" comment="" name="hostName" prompt="hostName?" promptNeeded="false" type="id_String" value="&quot;10.150.0.6&quot;"/>
+    <contextParameter xmi:id="_TgCOlgW8Eeia_I_8W8qb0Q" comment="" name="systemNumber" prompt="systemNumber?" promptNeeded="false" type="id_String" value="&quot;00&quot;"/>
+    <contextParameter xmi:id="_TgCOlwW8Eeia_I_8W8qb0Q" comment="" name="empresa" prompt="empresa?" promptNeeded="false" type="id_String" value="&quot;BR10&quot;"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_nooxkPeEEeeEY5u_yZusFQ" confirmationNeeded="false" name="QAS">
+    <contextParameter xmi:id="_nooxkfeEEeeEY5u_yZusFQ" comment="" name="clientSap" prompt="clientSap?" promptNeeded="false" type="id_String" value="&quot;300&quot;"/>
+    <contextParameter xmi:id="_nooxkveEEeeEY5u_yZusFQ" comment="" name="userID" prompt="userID?" promptNeeded="false" type="id_String" value="&quot;MASTERSAF&quot;"/>
+    <contextParameter xmi:id="_nooxk_eEEeeEY5u_yZusFQ" comment="" name="password" prompt="password?" promptNeeded="false" type="id_String" value="&quot;iNicio01&quot;"/>
+    <contextParameter xmi:id="_nooxlPeEEeeEY5u_yZusFQ" comment="" name="language" prompt="language?" promptNeeded="false" type="id_String" value="&quot;PT&quot;"/>
+    <contextParameter xmi:id="_nooxlfeEEeeEY5u_yZusFQ" comment="" name="hostName" prompt="hostName?" promptNeeded="false" type="id_String" value="&quot;10.150.0.5&quot;"/>
+    <contextParameter xmi:id="_nooxlveEEeeEY5u_yZusFQ" comment="" name="systemNumber" prompt="systemNumber?" promptNeeded="false" type="id_String" value="&quot;00&quot;"/>
+    <contextParameter xmi:id="_nooxl_eEEeeEY5u_yZusFQ" comment="" name="empresa" prompt="empresa?" promptNeeded="false" type="id_String" value="&quot;BR10&quot;"/>
+  </talendfile:ContextType>
+</xmi:XMI>

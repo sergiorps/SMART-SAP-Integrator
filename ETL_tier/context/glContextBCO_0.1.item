@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_AlvogCI8EeiOe8zTKDaqeA" confirmationNeeded="false" name="PRD">
+    <contextParameter xmi:id="_AlvogSI8EeiOe8zTKDaqeA" comment="" name="host" prompt="host?" promptNeeded="false" type="id_String" value="&quot;10.150.0.12&quot;"/>
+    <contextParameter xmi:id="_AlvogiI8EeiOe8zTKDaqeA" comment="" name="port" prompt="port?" promptNeeded="false" type="id_String" value="&quot;1433&quot;"/>
+    <contextParameter xmi:id="_AlvogyI8EeiOe8zTKDaqeA" comment="" name="schema" prompt="schema?" promptNeeded="false" type="id_String" value="&quot;dbo&quot;"/>
+    <contextParameter xmi:id="_AlvohCI8EeiOe8zTKDaqeA" comment="" name="database" prompt="database?" promptNeeded="false" type="id_String" value="&quot;smartprd&quot;"/>
+    <contextParameter xmi:id="_AlvohSI8EeiOe8zTKDaqeA" comment="" name="username" prompt="username?" promptNeeded="false" type="id_String" value="&quot;sa&quot;"/>
+    <contextParameter xmi:id="_AlvohiI8EeiOe8zTKDaqeA" comment="" name="pass" prompt="pass?" promptNeeded="false" type="id_String" value="&quot;Mortadela1&quot;"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_nnVxEPeEEeeEY5u_yZusFQ" confirmationNeeded="false" name="QAS">
+    <contextParameter xmi:id="_nnVxEfeEEeeEY5u_yZusFQ" comment="" name="host" prompt="host?" promptNeeded="false" type="id_String" value="&quot;10.150.0.12&quot;"/>
+    <contextParameter xmi:id="_nnVxEveEEeeEY5u_yZusFQ" comment="" name="port" prompt="port?" promptNeeded="false" type="id_String" value="&quot;1433&quot;"/>
+    <contextParameter xmi:id="_nnVxE_eEEeeEY5u_yZusFQ" comment="" name="schema" prompt="schema?" promptNeeded="false" type="id_String" value="&quot;dbo&quot;"/>
+    <contextParameter xmi:id="_nnVxFPeEEeeEY5u_yZusFQ" comment="" name="database" prompt="database?" promptNeeded="false" type="id_String" value="&quot;smartqas&quot;"/>
+    <contextParameter xmi:id="_nnVxFfeEEeeEY5u_yZusFQ" comment="" name="username" prompt="username?" promptNeeded="false" type="id_String" value="&quot;sa&quot;"/>
+    <contextParameter xmi:id="_nnVxFveEEeeEY5u_yZusFQ" comment="" name="pass" prompt="pass?" promptNeeded="false" type="id_String" value="&quot;Mortadela1&quot;"/>
+  </talendfile:ContextType>
+</xmi:XMI>
