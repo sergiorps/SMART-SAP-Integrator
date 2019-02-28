@@ -1,4 +1,4 @@
-package rizobacter.conn_cadprod_0_1;
+package client.conn_cadprod_0_1;
 
 import routines.Numeric;
 import routines.DataOperation;
@@ -309,7 +309,7 @@ public class conn_cadprod implements TalendJob {
 
 	private final String jobVersion = "0.1";
 	private final String jobName = "conn_cadprod";
-	private final String projectName = "RIZOBACTER";
+	private final String projectName = "client";
 	public Integer errorCode = null;
 	private String currentComponent = "";
 
@@ -665,8 +665,8 @@ public class conn_cadprod implements TalendJob {
 
 	public static class row2Struct implements
 			routines.system.IPersistableRow<row2Struct> {
-		final static byte[] commonByteArrayLock_RIZOBACTER_conn_cadprod = new byte[0];
-		static byte[] commonByteArray_RIZOBACTER_conn_cadprod = new byte[0];
+		final static byte[] commonByteArrayLock_client_conn_cadprod = new byte[0];
+		static byte[] commonByteArray_client_conn_cadprod = new byte[0];
 
 		public String ZZTIPOREGISTRO;
 
@@ -735,17 +735,17 @@ public class conn_cadprod implements TalendJob {
 			if (length == -1) {
 				strReturn = null;
 			} else {
-				if (length > commonByteArray_RIZOBACTER_conn_cadprod.length) {
+				if (length > commonByteArray_client_conn_cadprod.length) {
 					if (length < 1024
-							&& commonByteArray_RIZOBACTER_conn_cadprod.length == 0) {
-						commonByteArray_RIZOBACTER_conn_cadprod = new byte[1024];
+							&& commonByteArray_client_conn_cadprod.length == 0) {
+						commonByteArray_client_conn_cadprod = new byte[1024];
 					} else {
-						commonByteArray_RIZOBACTER_conn_cadprod = new byte[2 * length];
+						commonByteArray_client_conn_cadprod = new byte[2 * length];
 					}
 				}
-				dis.readFully(commonByteArray_RIZOBACTER_conn_cadprod, 0,
+				dis.readFully(commonByteArray_client_conn_cadprod, 0,
 						length);
-				strReturn = new String(commonByteArray_RIZOBACTER_conn_cadprod,
+				strReturn = new String(commonByteArray_client_conn_cadprod,
 						0, length, utf8Charset);
 			}
 			return strReturn;
@@ -764,7 +764,7 @@ public class conn_cadprod implements TalendJob {
 
 		public void readData(ObjectInputStream dis) {
 
-			synchronized (commonByteArrayLock_RIZOBACTER_conn_cadprod) {
+			synchronized (commonByteArrayLock_client_conn_cadprod) {
 
 				try {
 
@@ -904,8 +904,8 @@ public class conn_cadprod implements TalendJob {
 
 	public static class row1Struct implements
 			routines.system.IPersistableRow<row1Struct> {
-		final static byte[] commonByteArrayLock_RIZOBACTER_conn_cadprod = new byte[0];
-		static byte[] commonByteArray_RIZOBACTER_conn_cadprod = new byte[0];
+		final static byte[] commonByteArrayLock_client_conn_cadprod = new byte[0];
+		static byte[] commonByteArray_client_conn_cadprod = new byte[0];
 
 		public String ZZTIPOREGISTRO;
 
@@ -974,17 +974,17 @@ public class conn_cadprod implements TalendJob {
 			if (length == -1) {
 				strReturn = null;
 			} else {
-				if (length > commonByteArray_RIZOBACTER_conn_cadprod.length) {
+				if (length > commonByteArray_client_conn_cadprod.length) {
 					if (length < 1024
-							&& commonByteArray_RIZOBACTER_conn_cadprod.length == 0) {
-						commonByteArray_RIZOBACTER_conn_cadprod = new byte[1024];
+							&& commonByteArray_client_conn_cadprod.length == 0) {
+						commonByteArray_client_conn_cadprod = new byte[1024];
 					} else {
-						commonByteArray_RIZOBACTER_conn_cadprod = new byte[2 * length];
+						commonByteArray_client_conn_cadprod = new byte[2 * length];
 					}
 				}
-				dis.readFully(commonByteArray_RIZOBACTER_conn_cadprod, 0,
+				dis.readFully(commonByteArray_client_conn_cadprod, 0,
 						length);
-				strReturn = new String(commonByteArray_RIZOBACTER_conn_cadprod,
+				strReturn = new String(commonByteArray_client_conn_cadprod,
 						0, length, utf8Charset);
 			}
 			return strReturn;
@@ -1003,7 +1003,7 @@ public class conn_cadprod implements TalendJob {
 
 		public void readData(ObjectInputStream dis) {
 
-			synchronized (commonByteArrayLock_RIZOBACTER_conn_cadprod) {
+			synchronized (commonByteArrayLock_client_conn_cadprod) {
 
 				try {
 
@@ -1143,8 +1143,8 @@ public class conn_cadprod implements TalendJob {
 
 	public static class outSMARTStruct implements
 			routines.system.IPersistableRow<outSMARTStruct> {
-		final static byte[] commonByteArrayLock_RIZOBACTER_conn_cadprod = new byte[0];
-		static byte[] commonByteArray_RIZOBACTER_conn_cadprod = new byte[0];
+		final static byte[] commonByteArrayLock_client_conn_cadprod = new byte[0];
+		static byte[] commonByteArray_client_conn_cadprod = new byte[0];
 
 		public String ZZTIPOREGISTRO;
 
@@ -1213,17 +1213,17 @@ public class conn_cadprod implements TalendJob {
 			if (length == -1) {
 				strReturn = null;
 			} else {
-				if (length > commonByteArray_RIZOBACTER_conn_cadprod.length) {
+				if (length > commonByteArray_client_conn_cadprod.length) {
 					if (length < 1024
-							&& commonByteArray_RIZOBACTER_conn_cadprod.length == 0) {
-						commonByteArray_RIZOBACTER_conn_cadprod = new byte[1024];
+							&& commonByteArray_client_conn_cadprod.length == 0) {
+						commonByteArray_client_conn_cadprod = new byte[1024];
 					} else {
-						commonByteArray_RIZOBACTER_conn_cadprod = new byte[2 * length];
+						commonByteArray_client_conn_cadprod = new byte[2 * length];
 					}
 				}
-				dis.readFully(commonByteArray_RIZOBACTER_conn_cadprod, 0,
+				dis.readFully(commonByteArray_client_conn_cadprod, 0,
 						length);
-				strReturn = new String(commonByteArray_RIZOBACTER_conn_cadprod,
+				strReturn = new String(commonByteArray_client_conn_cadprod,
 						0, length, utf8Charset);
 			}
 			return strReturn;
@@ -1242,7 +1242,7 @@ public class conn_cadprod implements TalendJob {
 
 		public void readData(ObjectInputStream dis) {
 
-			synchronized (commonByteArrayLock_RIZOBACTER_conn_cadprod) {
+			synchronized (commonByteArrayLock_client_conn_cadprod) {
 
 				try {
 
@@ -1382,8 +1382,8 @@ public class conn_cadprod implements TalendJob {
 
 	public static class T_PRODStruct implements
 			routines.system.IPersistableRow<T_PRODStruct> {
-		final static byte[] commonByteArrayLock_RIZOBACTER_conn_cadprod = new byte[0];
-		static byte[] commonByteArray_RIZOBACTER_conn_cadprod = new byte[0];
+		final static byte[] commonByteArrayLock_client_conn_cadprod = new byte[0];
+		static byte[] commonByteArray_client_conn_cadprod = new byte[0];
 
 		public String ZZTIPOREGISTRO;
 
@@ -1452,17 +1452,17 @@ public class conn_cadprod implements TalendJob {
 			if (length == -1) {
 				strReturn = null;
 			} else {
-				if (length > commonByteArray_RIZOBACTER_conn_cadprod.length) {
+				if (length > commonByteArray_client_conn_cadprod.length) {
 					if (length < 1024
-							&& commonByteArray_RIZOBACTER_conn_cadprod.length == 0) {
-						commonByteArray_RIZOBACTER_conn_cadprod = new byte[1024];
+							&& commonByteArray_client_conn_cadprod.length == 0) {
+						commonByteArray_client_conn_cadprod = new byte[1024];
 					} else {
-						commonByteArray_RIZOBACTER_conn_cadprod = new byte[2 * length];
+						commonByteArray_client_conn_cadprod = new byte[2 * length];
 					}
 				}
-				dis.readFully(commonByteArray_RIZOBACTER_conn_cadprod, 0,
+				dis.readFully(commonByteArray_client_conn_cadprod, 0,
 						length);
-				strReturn = new String(commonByteArray_RIZOBACTER_conn_cadprod,
+				strReturn = new String(commonByteArray_client_conn_cadprod,
 						0, length, utf8Charset);
 			}
 			return strReturn;
@@ -1481,7 +1481,7 @@ public class conn_cadprod implements TalendJob {
 
 		public void readData(ObjectInputStream dis) {
 
-			synchronized (commonByteArrayLock_RIZOBACTER_conn_cadprod) {
+			synchronized (commonByteArrayLock_client_conn_cadprod) {
 
 				try {
 
@@ -2683,7 +2683,7 @@ public class conn_cadprod implements TalendJob {
 			// the default context instead.
 			java.io.InputStream inContext = conn_cadprod.class.getClassLoader()
 					.getResourceAsStream(
-							"rizobacter/conn_cadprod_0_1/contexts/"
+							"client/conn_cadprod_0_1/contexts/"
 									+ contextStr + ".properties");
 			if (isDefaultContext && inContext == null) {
 
